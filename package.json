@@ -1,0 +1,29 @@
+{
+  "name": "@datagica/parse-document",
+  "version": "0.0.16",
+  "description": "Parse a document composed from multiple entities",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony --bail --require chai tests/*.js"
+  },
+  "author": "Julian Bilcke <julian.bilcke@datagica.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@datagica/ontology": "^0.0.0",
+    "@datagica/entity": "^0.0.2",
+    "@datagica/parse-patterns": "^0.0.7",
+    "@datagica/tokenize": "^0.0.2",
+    "@datagica/unambiguate": "^0.0.1"
+  },
+  "devDependencies": {
+    "@datagica/parse-emails": "^0.0.2",
+    "@datagica/parse-generic-animals": "^0.0.1",
+    "@datagica/parse-interests": "^0.0.8",
+    "chai": "^4.1.2",
+    "chai-fuzzy": "^1.6.1",
+    "deep-eql": "^3.0.1",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.1",
+    "underscore": "^1.8.3"
+  }
+}
